@@ -1,0 +1,162 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.headtag:hover
+{
+    background-color: rgb(80, 16, 5);
+    color:burlywood;
+}
+.navigation:hover 
+{
+    /* padding: 10px 10px; */
+    background-color: rgb(22, 11, 63);
+    color:burlywood;
+    /* padding-left:10px;
+    padding-right:10px; */
+}
+.headtag,.navtag
+{
+    display: inline-block;
+    margin: 1.3vh 3.2vw;
+    font-size: 1.2vw;
+    color: rgb(232, 232, 243);
+    text-decoration: none;
+    font-weight: bolder;
+    position: sticky;
+    top:0vh;
+    z-index: 10;
+   
+}
+.navigation
+{
+    background-color: rgb(2, 12, 14);
+    width:98.9vw;
+    height:8vh;
+    position: sticky;
+    top:0vh;
+    
+    
+}
+
+.container,.insidebodycards0,.line1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.insidebodycards1,.line2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.leftsidebar
+{
+    background-color: burlywood;
+    width: 17vw;
+    height: 780vh;   
+}
+
+.sidebullets:hover
+{
+    color:rgba(207, 233, 91, 0.863);
+    font-weight:bolder;
+}
+.leftsidebar:hover
+{
+    background-color: rgb(0, 0, 0);
+    width: 17vw;
+    height: 780vh;   
+    color:white;
+}
+
+
+.body1
+{
+    background-color: rgb(234, 223, 209);
+    width: 17vw;
+    height: 780vh;
+    flex-grow: 1;
+   
+    
+}
+.footer
+{
+    background-color: darkslategrey;
+    width: 98.9vw;
+    height: 30vh;
+}
+.box1
+{
+    background-color: darkgrey;
+    width: 40vw;
+    height: 60vh;
+    margin-top: 5vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* text-align-last: center; */
+    text-indent: 25%;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    word-spacing: 7px;
+    font-size: medium;
+    padding:40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+   
+}
+.box2
+{
+    background-color: rgb(92, 50, 50);
+    width: 35vw;
+    height: 60vh;
+    margin-top: 5vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+.list,.sidebullets
+{
+    list-style: square;
+    margin-left: 19%;
+    margin-top: 15%;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-bottom: 400%;
+    font-weight:bolder;
+    color:rgb(153, 21, 21)
+}
+
+h1
+{
+    background-color: bisque;
+    text-align: center;
+    padding-right: 23%;
+    color: black;
+    margin-top: -30px;
+    margin-bottom: revert;
+}
+/* .list
+{
+    margin: 9px;
+} */
+/* .insidebodycards,.line1
+{
+    display: flex;
+} */
+
+/* span
+{
+    display: inline-block;
+    background-color: darkviolet;
+    width:1vh;
+    height:1vw;
+    position:absolute
+} */
