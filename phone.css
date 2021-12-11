@@ -1,0 +1,131 @@
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+    /* overflow: hidden; */
+}
+.menu-symbol {
+    margin-left: 7px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.search-symbol {
+    margin-top: 16px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+#heading-text
+{
+    font-size: 38px;
+    color: #f8f8f8;
+    text-shadow: 7px -1px 17px #f81324;
+}
+
+.right {
+    display: flex;
+    /* padding-left: 15%; */
+    justify-content: center;
+}
+.btn-1 
+{
+    width: 85px;
+    height: 53px;
+    margin-top: 7px;
+    padding-right: 10px; 
+}
+
+
+.introduction {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 41vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url("./img/bacjground_image.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+.info {
+    text-align: center;
+    color: rgb(111, 221, 240);
+    font-size: 16.9px;
+    padding: 4px;
+    padding-top: 4px;
+    padding-top: 4px;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 37px;
+}
+
+.about-info {
+    font-family: 'Arapey', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.type {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.type_btn {
+    flex-grow: 2;
+    padding: 0px 30px;
+    margin: 3px;
+    border-radius: 11px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* text-shadow: 2px 2px 2px black; */
+    cursor: pointer;
+    height: 29px;
+}
+
+.watches-list, .contact-us, .comments {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+
+
+.watch1, .watch2, .watch3, .watch4, .watch5, .watch6
+{
+    margin:0px;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .watch2,  .watch4,  .watch6
+{
+    margin:0px;
+    border:1px solid black;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.watch img
+{
+    width:100vw;
+}
+
+
+.info1 {
+    margin: -18px;
+    padding: 45px;
+    text-align: center;
+    font-size: 18px;
+}

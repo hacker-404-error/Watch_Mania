@@ -1,0 +1,316 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    /* background-image: url("./img/bg1.jpg"); */
+}
+
+/****Navigation****/
+.navigation
+{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 76px;
+}
+.menu-symbol
+{
+    margin-left: 42px;
+    margin-top: 24px;
+}
+.search-symbol
+{
+    margin-top: 24px;
+    margin-left: 27px;
+}
+#symbol-text
+{
+    position: relative;
+    top: -7px;
+    color:aqua;
+}
+#symbol-text:hover
+{
+    position: relative;
+    top: -7px;
+    color:rgb(255, 0, 0);
+}
+.navigation .menu-symbol a
+{
+    text-decoration: none;
+    
+}
+.navigation .search-symbol a
+{
+    text-decoration: none;
+    
+}
+.heading
+{
+    flex-grow:6;
+    text-align: center;
+    align-self: center;
+}
+#heading-text
+{
+
+    font-size: 40px;
+    color: #f8f8f8;
+    /* text-shadow: 7px -1px 17px #f81324; */
+}
+.right
+{
+    display:flex;
+}
+.btn-1
+{
+    width: 94px;
+    height: 51px; 
+    margin-top: 16px;
+    padding-right: 11px;   
+}
+#button
+{  
+    width: 90px;
+    height: 38px; 
+    background: rgb(0, 0, 0);
+    border-radius: 31px;
+    border-color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor:pointer;
+}
+#button b
+{
+        color:white;
+}
+
+#button:hover
+{  
+    width: 90px;
+    height: 38px; 
+    background: rgba(105, 197, 82, 0.212);
+    border-radius: 31px;
+    border-color: rgb(15, 228, 97);
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+
+/****Introduction****/
+.introduction
+{
+    /* border:2px solid red; */
+    width: 98.9vw;
+    height: 84vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url("./img/bacjground_image.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    overflow: hidden;
+}
+.intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.info
+{
+    text-align: center;
+    color: rgb(111, 221, 240);
+    font-size: 38px;
+    padding: 110px;
+    text-shadow: 2px 2px 2px black;
+    padding-left: 280px;
+    padding-right: 320px;
+    padding-bottom: 5px;
+}
+
+.introduction .intro .symbo
+{
+    /* position:absolute;
+    bottom: 0; */
+    display:flex;
+    justify-content: center;
+}
+
+.btn2
+{
+    flex-grow: 1;
+    text-align: left;
+    padding:36px;
+}
+.btn3
+{
+    flex-grow: 1;
+    text-align: right;
+    padding:36px;
+}
+#left,#right
+{
+    color:white;
+    /* background: rgb(0, 0, 0); */
+    border-radius: 31px;
+    border-color: rgb(255, 255, 255);
+    font-size: 35px;
+    cursor:pointer;
+    padding:2px;
+}
+#left:hover , #right:hover
+{
+    color:rgb(250, 9, 9);
+    /* background: rgb(0, 0, 0); */
+    border-radius: 31px;
+    border-color: rgb(255, 255, 255);
+    font-size: 35px;
+    cursor:pointer;
+    padding:2px;
+}
+
+
+/**********ABOUT**********/
+.about
+{
+      /* border: 2px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 415px;
+      margin: 0px;
+      background-image: url(./img/bg2.jpg);
+      background-size: contain;
+}
+.about-info
+{
+    font-family: 'Arapey', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 73px;
+}
+.type
+{
+    display:flex;
+    justify-content: center;
+}
+.about .type a
+{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.type_btn
+{
+    /* flex-grow: 2; */
+    padding: 0px 30px;
+    margin: 30px;
+    border-radius: 11px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* text-shadow: 2px 2px 2px black; */
+    cursor: pointer;
+    height: 34px;;
+}
+
+/************Index*************/
+.index
+{
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.watches-list, .contact-us, .comments
+{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px; 
+    color:antiquewhite       
+}
+
+/*********All Watches*********/
+
+.watch
+{
+    /* border:2px solid black; */
+    background-image: url("./img/luke-chesser-3rWagdKBF7U-unsplash.jpg");
+    display:flex;
+    flex-direction: column;
+    margin:0px;
+}
+.watch1, .watch2, .watch3, .watch4, .watch5, .watch6
+{
+    margin:70px;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content: center;
+    box-shadow: 17px 20px 20px 0px rgb(0 0 0);
+
+}
+
+ .watch2,  .watch4,  .watch6
+{
+    margin:70px;
+    /* border:1px solid black; */
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    box-shadow: 17px 20px 20px 0px rgb(0 0 0);
+
+}
+
+.watch img
+{
+    width:605px;
+}
+.info1
+{
+    margin: 53px;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: inset 9px 8px 20px 0px black;
+    text-shadow: 20px 20px 12px black;
+    color:rgb(255, 255, 255);
+}
+
+
+form
+{
+    background-image: url("./img/bg1.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+    margin-top:20px;
+    text-align: center;
+}
+#pritamdas {
+    font-family: 'Bree Serif', serif;
+    padding: 47px 11vw;
+    text-align: center;
+}
